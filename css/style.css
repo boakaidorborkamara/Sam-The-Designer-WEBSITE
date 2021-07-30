@@ -1,3 +1,17 @@
-.navbar img{
-    width: 8%;
+#main-container{
+    background-color: rgb(2, 2, 42);
 }
+
+.navbar{
+    background-color: rgb(2, 2, 42);
+}
+
+.navbar img{
+    width: 10%;
+}
+
+.nav-link{
+    color: white;
+}
+
+

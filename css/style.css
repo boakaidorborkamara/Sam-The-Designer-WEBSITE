@@ -23,13 +23,24 @@
     height: 100vh;
 }
 #intro-text{
-    font-size: 3rem;
+    font-size: 3.4rem;
 }
 
 /* strategist-section-container  */
 #strategist-section-container{
     background-color: rgb(41, 38, 38);
     height: 100vh;
+}
+
+/* delight section  */
+#delight-section{
+    height: 100vh;
+}
+
+/* showcase section  */
+.show-case-img{
+    width: 100%;
+    height: auto;
 }
 
 

@@ -14,31 +14,35 @@
    
         <header>
             <!-- navigation bar  -->
-            <nav class="navbar navbar-expand-lg ">
-                <div class="container">
-                    <a class="navbar-brand " href="#">
-                        <img src="./image/sam-the-designer-log.png" alt="logo" id="logo">
-                    </a>
-                    <ul class="navbar-nav ms-auto fw-bold">
-                        <li class="nav-item">
-                            <a class="nav-link " href="#">SERVICES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">WORK</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">BLOG</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACT</a>
-                        </li>
-                        
-                    </ul>
-                </div>
-            </nav>
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto fw-bold">
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">SERVICES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">WORK</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">BLOG</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CONTACT</a>
+                            </li> 
+                        </ul>
+                    </div>
+                    </div>
+                </nav>
+            </div>
         </header>
        
         <main>
@@ -62,8 +66,8 @@
             </section>
 
             <!-- strategist section  -->
-            <section class="contaner-fluid" id="strategist-section-container">
-                <div class="container text-light text-center h-100">
+            <section class="contaner-fluid d-flex flex-colum align-items-center" id="strategist-section-container">
+                <div class="container text-light text-center ">
                    <div class="row">
                        <div class="col-12">
                             <h1 class="d-inline-block">
@@ -83,31 +87,62 @@
             </section>
 
             <!-- Businesses approch section  -->
-            <section class="container-fluid">
+            <section class="container-fluid pt-5 pb-4">
                 <div class="container">
                     <div class="row">
                         <div class="col-6">
                             <img src="./image/circle-icon.png" class="img-fluid" alt="circle-icon">
                         </div>
-                        <div class="col-6">
-                            <h1>
-                                Strategic Approach for
-                                Businesses Seeking
-                                to Dominate
-                            </h1>
-                            <p>
-                                As a Brand Strategist, I bridge the gap
-                                between strategy conceived and strategy
-                                executed. I align the goals of your
-                                business to the needs of your customers -
-                                creating exceptional brand experiences.
-                            </p>
-                            <button> BROWSE MY SERVICES</button>
+                        <div class="col-6 d-flex flex-colum align-items-center">
+                            <div>
+                                <h1 class="mb-5">
+                                    Strategic Approach for
+                                    Businesses Seeking
+                                    to Dominate
+                                </h1>
+                                <p class="mb-5">
+                                    As a Brand Strategist, I bridge the gap <br>
+                                    between strategy conceived and strategy <br>
+                                    executed. I align the goals of your <br>
+                                    business to the needs of your customers - <br>
+                                    creating exceptional brand experiences.
+                                </p>
+                                <button> BROWSE MY SERVICES</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
+
+            <!-- Create Delight Section  -->
+            <section class="container-fluid d-flex flex-row align-items-center" id="delight-section">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-12 text-center pt-5 pb-5">
+                            <h1>I Create Delight</h1>
+                            <p>Decades of experience, a cabinet full of golden statues, long history of <br>
+                                innovation and culturally relevant work - what I do gets results</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Project Showcase section  -->
+            <section class="container-fluid pb-5">
+                
+               <div class="row">
+                    <div class="row-6">
+                        <img src="./image/browsy.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="row-6">
+                        <img src="./image/browsy.jpg" class="img-fluid" alt="">
+                    </div>
+               </div>
+                
+            </section>
         </main>
-        
+    <!-- bootstrap javascript  -->
+    <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>

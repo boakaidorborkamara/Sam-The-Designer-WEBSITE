@@ -1,30 +1,37 @@
 /* navigation bar styling  */
-.navbar{
+#navigation-bar{
     background-color: rgb(2, 2, 42);
 }
 
-.navbar img{
-    width: 10%;
+#navigation-bar a{
+    border-bottom: 2px dotted rgb(2, 2, 42);
+    
 }
 
-.nav-link{
-    color: white;
+#navigation-bar a:hover{
+    border-bottom: 2px dotted orange;
 }
+
+/* logo in the navigation bar  */
+.navbar img{
+    width: 6%;
+}
+
+
 
 /* intro section container  */
 #intro-section-container{
     background-color: rgb(2, 2, 42);
-}
-
-/* intro section styling  */
-#intro-section-container{
-    /* padding-top: 98px;
-    padding-bottom: 98px; */
     height: 100vh;
 }
-#intro-text{
-    font-size: 3.4rem;
+
+#intro-section-container p{
+    color: orange;
 }
+
+
+
+
 
 /* strategist-section-container  */
 #strategist-section-container{
@@ -32,15 +39,167 @@
     height: 100vh;
 }
 
+#strategist-section-container button{
+    border: none;
+    background-color: none;
+    background-color: rgb(41, 38, 38);
+    border-bottom: 3px solid orange;
+    color: orange;
+}
+
+#strategist-section-container button:hover{
+    border: none;
+    background-color: none;
+    background-color: rgb(41, 38, 38);
+    border-bottom: 3px dotted orange;
+}
+
+/* business approach section  */
+#business-approch-container{
+    height: 100vh;
+    border-bottom: 1px dotted black;
+}
+
+#business-approch-container button{
+    border: none;
+    border-bottom: 3px solid black;
+    font-weight: bold;
+    background-color: white;
+}
+
+#business-approch-container button:hover{
+    border-bottom: 3px dotted black;
+}
+
+
+
 /* delight section  */
 #delight-section{
     height: 100vh;
 }
 
+
+
 /* showcase section  */
-.show-case-img{
+#showcase-section{
+    height: 100vh;
+    margin-bottom: 200px;
+}
+
+.big-pic-frame1{
+    height: 50vh;
+    border: chocolate 1px black solid;
+    background-image: url("../image/browsy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.big-pic-frame1:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.big-pic-frame2{
+    height: 50vh;
+    border: chocolate 1px black solid;
+    background-image: url("../image/app.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.big-pic-frame2:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+
+/* small pic in showcase section  */
+.small-pic-frame1{
+    height: 50vh;
+    background-image: url("../image/ladiesheart.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.small-pic-frame1:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.small-pic-frame2{
+    height: 50vh;
+    background-image: url("../image/touch.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.small-pic-frame2:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.small-pic-frame3{
+    height: 50vh;
+    background-image: url("../image/tthomepage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.small-pic-frame3:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.small-pic-frame4{
+    height: 50vh;
+    background-image: url("../image/schoolweb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.small-pic-frame4:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#showcase-section button{
+    background-color: white;
+    border: none;
+    border-bottom: 3px solid black;
+}
+
+#showcase-section button:hover{
+    border-bottom: 3px dotted black;
+}
+
+
+/* clients sections styling begins  */
+#client-logo-frame{
+    width: 80%;
+}
+
+
+/* blog section */
+#blog-section{
+    height: 100vh;
     width: 100%;
-    height: auto;
+    margin-top: 100px;
+}
+
+
+/* responsive options  */
+@media (min-width:768px) {
+    #intro-text{
+        font-size: 3em;
+    }
+
+    #strategist-section-container h1{
+        font-size: 3em;
+    }
+
+    #delight-section h1{
+        font-size: 3em;
+    }
 }
 
 
